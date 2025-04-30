@@ -53,8 +53,8 @@ The dataset included over **500,000 order records** with the following columns:
   ✅ Outputs a cleaned `.csv` at the end.
 
 - `seasonal-performance-dashboard.pbix`:  
-  Power BI dashboard file showing **Seasonal Business Performance**.  
-  📌 To view it, download and open with **Power BI Desktop**.
+  Tableau dashboard file showing **Seasonal Business Performance**.  
+  📌 To view it, download and open with **Tableau Desktop**.
 
 ---
 
