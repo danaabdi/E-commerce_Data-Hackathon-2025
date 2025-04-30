@@ -61,7 +61,7 @@ The dataset included over **500,000 order records** with the following columns:
 ## 📊 Additional Visuals
 
 All visuals, insights, and summary slides are available in our  
-📎 [Canva Presentation](#) *(Insert your Canva link here)*
+📎 [Canva Presentation](#) *([Link](https://www.canva.com/design/DAGlwVlCVwo/qXdaVok-uXooKnCkfuT6hQ/edit))*
 
 ---
 
