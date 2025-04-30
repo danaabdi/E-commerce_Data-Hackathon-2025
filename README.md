@@ -1,44 +1,68 @@
-Modecraft Ecommerce Data Analysis Project
-📝 Project Overview
-For the 6th DubsTech Datathon, we analyzed data from Modecraft, an ecommerce store offering various household items. The company sought insights from both operational and marketing perspectives to guide strategic decisions.
+# 🛍️ Modecraft Ecommerce Data Analysis Project
 
-📙 Data Description
-The dataset contained over 500,000 order records with the following columns:
+## 📝 Project Overview
+For the 6th DubsTech Datathon, we analyzed data from **Modecraft**, an ecommerce store offering various household items. The company sought insights from both **operational** and **marketing** perspectives to guide strategic decisions.
 
-InvoiceNo (Unique Invoice ID)
-StockCode (Unique Product ID)
-Description (Product Name)
-Quantity (Total units purchased)
-InvoiceDate (Date and time of the invoice)
-UnitPrice (Price per unit in pounds)
-CustomerID (Unique Customer ID)
-Country (Country of origin for the order)
-🗑️ Data Cleaning Process
-Our data preparation involved several key steps:
+---
 
-Initial Assessment:
-Examined data dimensions and structure
-Identified null values across columns
-Analyzed basic statistics to understand data distribution
-Handling Negative Values
-Identified and removed negative quantities (likely returns or inventory adjustments)
-Documented the percentage of data removed
-Handling Missing Values:
-Replaced null CustomerIDs with "Unknown Customer"
-Replaced missing product descriptions with "Unknown Product"
-Feature Engineering:
-Renamed "Description" column to "Product Name" for clarity
-Added a "Season" column based on the month from InvoiceDate
-Created a "Month" column to enable time-based analysis
-Final Verification:
-Confirmed all null values were properly addressed
-Saved the cleaned dataset for further analysis
-📁 Files in this Repo
-retail-data-cleaning.ipynb
-This file contains all the Python code used to clean the data. At the very end of this Python notebook, we exported a cleaned version of the data in the format of a CSV file.
+## 📙 Data Description
 
-seasonal-performance-dashboard.pbix
-This file cannot be viewed directly from GitHub, but it can be downloaded it viewed on the Power BI Desktop app. It contains our "Seasonal Business Performance" dashboard.
+The dataset included over **500,000 order records** with the following columns:
 
-📊 Canva
-All other links can be found in our Canva presentation!
+- `InvoiceNo`: Unique Invoice ID  
+- `StockCode`: Unique Product ID  
+- `Description`: Product Name  
+- `Quantity`: Total units purchased  
+- `InvoiceDate`: Date and time of the invoice  
+- `UnitPrice`: Price per unit (GBP)  
+- `CustomerID`: Unique Customer ID  
+- `Country`: Country of origin for the order
+
+---
+
+## 🗑️ Data Cleaning Process
+
+### 🔍 Initial Assessment
+- Reviewed dataset dimensions and structure
+- Identified null values across key columns
+- Ran summary statistics to understand distributions
+
+### ➖ Handling Negative Values
+- Removed negative `Quantity` values (likely returns)
+- Documented the percentage of data removed
+
+### ❓ Handling Missing Values
+- Replaced null `CustomerID`s with `"Unknown Customer"`
+- Replaced missing product descriptions with `"Unknown Product"`
+
+### 🛠️ Feature Engineering
+- Renamed `Description` to `Product Name` for clarity
+- Extracted `Month` from `InvoiceDate`
+- Added a `Season` column based on invoice month
+
+### ✅ Final Verification
+- Verified there were no remaining nulls
+- Saved cleaned dataset for downstream analysis
+
+---
+
+## 📁 Files in this Repository
+
+- `retail-data-cleaning.ipynb`:  
+  Jupyter notebook containing all the Python code used for data cleaning.  
+  ✅ Outputs a cleaned `.csv` at the end.
+
+- `seasonal-performance-dashboard.pbix`:  
+  Power BI dashboard file showing **Seasonal Business Performance**.  
+  📌 To view it, download and open with **Power BI Desktop**.
+
+---
+
+## 📊 Additional Visuals
+
+All visuals, insights, and summary slides are available in our  
+📎 [Canva Presentation](#) *(Insert your Canva link here)*
+
+---
+
+**Made with 💡 for the DubsTech 6th Datathon**
