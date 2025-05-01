@@ -48,7 +48,7 @@ The dataset included over **500,000 order records** with the following columns:
 
 ## 📁 Files in this Repository
 
-- `retail-data-cleaning.ipynb`:  
+- `Datathon_2025.ipynb`:  
   Jupyter notebook containing all the Python code used for data cleaning.  
   ✅ Outputs a cleaned `.csv` at the end.
 
