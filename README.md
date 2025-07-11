@@ -65,4 +65,3 @@ All visuals, insights, and summary slides are available in our
 
 ---
 
-**Made with for the DubsTech 6th Datathon**
