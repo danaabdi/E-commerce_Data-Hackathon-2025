@@ -1,4 +1,4 @@
-# 🛍 Modecraft Ecommerce Data Analysis Project
+# Modecraft Ecommerce Data Analysis Project
 
 ## Project Overview
 For the 6th DubsTech Datathon, we analyzed data from **Modecraft**, an ecommerce store offering various household items. The company sought insights from both **operational** and **marketing** perspectives to guide strategic decisions.
