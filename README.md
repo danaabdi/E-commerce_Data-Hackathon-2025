@@ -1,7 +1,23 @@
-# Modecraft Ecommerce Data Analysis Project
+ 
+# 🛒 Modecraft Ecommerce Data Analysis Project
 
 ## Project Overview
-For the 6th DubsTech Datathon, we analyzed data from **Modecraft**, an ecommerce store offering various household items. The company sought insights from both **operational** and **marketing** perspectives to guide strategic decisions.
+
+As part of the **6th DubsTech Datathon**, this project focuses on analyzing transactional data from **Modecraft**, an e-commerce store offering a wide range of household items.
+
+The goal was to identify high-performing products, uncover purchasing behavior trends, and support data-driven decision-making through a combination of analytics, visualization, and machine learning.
+
+### Project Components
+
+- 🧹 **Data Cleaning & Preparation** – using Python (Pandas) to clean and normalize raw data
+- 🧮 **KPI Development** – creation of a custom **Product Health Score** to rank products based on revenue, quantity sold, and purchase frequency
+- 📊 **Data Visualization** – interactive Tableau dashboard to explore metrics, trends, and rankings
+- 🤖 **Machine Learning** – XGBoost model to validate key performance drivers and predict high-potential products
+
+---
+
+> This project showcases a full data pipeline: from data wrangling to insights to machine learning — all centered around real-world e-commerce operations.
+
 
 ---
 
