@@ -45,6 +45,18 @@ The dataset included over **500,000 order records** with the following columns:
 - Saved cleaned dataset for downstream analysis
 
 ---
+## New KPI: Product Health Score
+
+The **Product Health Score** is a weighted composite metric created to evaluate product performance across three key dimensions:
+
+- **Revenue (50%)** — Profitability is the top priority.
+- **Quantity Sold (30%)** — Popularity and demand matter.
+- **Invoice Count (20%)** — Measures repeat purchases or transaction frequency.
+
+> This metric allows Modecraft to prioritize products that not only generate high revenue but also show consistent customer purchase behavior.
+
+
+
 
 ##  Files in this Repository
 
