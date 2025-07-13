@@ -1,10 +1,10 @@
  
 # 🛒 Modecraft Ecommerce Data Analysis Project
-
-## 📊 TL;DR – Ecommerce Dashboard Summary
 ## 🔗 Data Visualization
 
  [Click here to view the Tableau dashboard](https://public.tableau.com/views/Datathon2025_17456919773330/Dashboard1)
+
+## Ecommerce Dashboard Summary
 
 This Tableau dashboard provides a high-level overview of Modecraft’s sales performance across key business dimensions.
 
