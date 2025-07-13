@@ -49,6 +49,11 @@ The dataset included over **500,000 order records** with the following columns:
 
 The **Product Health Score** is a weighted composite metric created to evaluate product performance across three key dimensions:
 
+Product Health Score =
+(0.5 × Normalized Revenue) +
+(0.3 × Normalized Quantity Sold) +
+(0.2 × Normalized Invoice Count)
+
 - **Revenue (50%)** — Profitability is the top priority.
 - **Quantity Sold (30%)** — Popularity and demand matter.
 - **Invoice Count (20%)** — Measures repeat purchases or transaction frequency.
