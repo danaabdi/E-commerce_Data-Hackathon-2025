@@ -87,7 +87,7 @@ Product Health Score =
 
 ## 🔗 Data Visualization
 
-👉 [Click here to view the Tableau dashboard](https://public.tableau.com/views/Datathon2025_17456919773330/Dashboard1)
+ [Click here to view the Tableau dashboard](https://public.tableau.com/views/Datathon2025_17456919773330/Dashboard1)
 
 ---
 
@@ -101,7 +101,7 @@ All visuals, insights, and summary slides are available in
 
 An **XGBoost** model was developed to identify features that best predict product success, helping validate the importance of each metric component.
 
-### 🧠 ML Highlights:
+### ML Highlights:
 
 - **Model Type:** Gradient Boosted Decision Trees (XGBoost)
 - **Target Variable:** Revenue Prediction
