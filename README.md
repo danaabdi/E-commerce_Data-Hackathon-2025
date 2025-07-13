@@ -9,10 +9,10 @@ The goal was to identify high-performing products, uncover purchasing behavior t
 
 ### Project Components
 
-- 🧹 **Data Cleaning & Preparation** – using Python (Pandas) to clean and normalize raw data
-- 🧮 **KPI Development** – creation of a custom **Product Health Score** to rank products based on revenue, quantity sold, and purchase frequency
-- 📊 **Data Visualization** – interactive Tableau dashboard to explore metrics, trends, and rankings
-- 🤖 **Machine Learning** – XGBoost model to validate key performance drivers and predict high-potential products
+- **Data Cleaning & Preparation** – using Python (Pandas) to clean and normalize raw data
+- **KPI Development** – creation of a custom **Product Health Score** to rank products based on revenue, quantity sold, and purchase frequency
+- **Data Visualization** – interactive Tableau dashboard to explore metrics, trends, and rankings
+- **Machine Learning** – XGBoost model to validate key performance drivers and predict high-potential products
 
 ---
 
@@ -97,7 +97,7 @@ All visuals, insights, and summary slides are available in
  [Canva Presentation](#) *([Link](https://www.canva.com/design/DAGlwVlCVwo/qXdaVok-uXooKnCkfuT6hQ/edit))*
 
 ---
-## 🤖 Machine Learning Model: XGBoost
+## Machine Learning Model: XGBoost
 
 An **XGBoost** model was developed to identify features that best predict product success, helping validate the importance of each metric component.
 
