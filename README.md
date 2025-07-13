@@ -1,5 +1,35 @@
  
 # 🛒 Modecraft Ecommerce Data Analysis Project
+## 📊 TL;DR – Ecommerce Dashboard Summary
+## 🔗 Data Visualization
+
+ [Click here to view the Tableau dashboard](https://public.tableau.com/views/Datathon2025_17456919773330/Dashboard1)
+
+This Tableau dashboard provides a high-level overview of Modecraft’s sales performance across key business dimensions.
+
+### Top Sales Regions
+- **United Kingdom** leads significantly in total sales.
+- Followed by **Netherlands**, **EIRE**, and **Germany**.
+
+### Customer Insights
+- A few **high-value customers** contribute disproportionately to total revenue.
+- Some customers made purchases exceeding **£1M**, indicating strong repeat behavior and brand loyalty.
+
+### Top Products
+- **Best-sellers** include:
+  - *Paper Craft, Little Bird*
+  - *Medium Ceramic Top Storage*
+- These dominate sales volume and are ideal for bundling or promotions.
+
+###  Sales Timing Patterns
+- **Mid-day on Thursdays and Fridays** see the highest transaction volumes.
+- Suggests optimal windows for **marketing campaigns** and **flash sales**.
+
+###  Key Performance Indicators
+- **Total Units Sold:** 5.66 million+
+- **Total Products:** 4,061
+- **Total Customers:** 4,340
+- **Average Quantity per Transaction:** ~10.66 units
 
 ## Project Overview
 
