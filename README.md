@@ -52,9 +52,9 @@ The dataset included over **500,000 order records** with the following columns:
   Jupyter notebook containing all the Python code used for data cleaning.  
   Outputs a cleaned `.csv` at the end.
 
-- `seasonal-performance-dashboard.pbix`:  
-  Tableau dashboard file showing **Seasonal Business Performance**.  
- To view it, download and open with **Tableau Desktop**.
+## 🔗 View Dashboard
+
+👉 [Click here to view the Tableau dashboard](https://public.tableau.com/views/Datathon2025_17456919773330/Dashboard1)
 
 ---
 
