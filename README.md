@@ -76,12 +76,12 @@ Product Health Score =
 
 | File Name                      | Description                                                           |
 |-------------------------------|-----------------------------------------------------------------------|
-| `E_commerce_Data_Cleaning.ipynb` | Jupyter notebook with Python code for data cleaning and preprocessing. Outputs cleaned dataset. |
+| `E_commerce_Data_Cleaning.ipynb` | Jupyter notebook with Python code for data cleaning and preprocessing. |
 | `ML_XGBOOST.ipynb`             | Jupyter notebook implementing the XGBoost machine learning model to validate KPI drivers and predict product success. |
 | `Mode_Craft_Ecommerce_Data.xlsx` | Original raw dataset used for the analysis.                          |
 | `Ecommerce_Dashboard.png`      | Screenshot of the Tableau dashboard visualizing key metrics and trends. |
-| `Ecommerce_Tableau.pdf`        | Full presentation with visuals, insights, and summary of the datathon project. |
-| `3rd Place - Data Analysis-2.jpg` | Award recognition image for achieving 3rd place in the datathon.      |
+| `Ecommerce_Tableau.pdf`        | Full visual                                               |
+| `3rd Place - Data Analysis-2.jpg` | Award certificate for achieving 3rd place in the datathon.      |
 
 
 
