@@ -16,12 +16,7 @@ The goal was to identify high-performing products, uncover purchasing behavior t
 
 ---
 
-> This project showcases a full data pipeline: from data wrangling to insights to machine learning — all centered around real-world e-commerce operations.
-
-
----
-
-##  Data Description
+##  Data Dictionary
 
 The dataset included over **500,000 order records** with the following columns:
 
@@ -36,7 +31,7 @@ The dataset included over **500,000 order records** with the following columns:
 
 ---
 
-##  Data Cleaning Process
+##  Data Cleaning & Preparation
 
 ###  Initial Assessment
 - Reviewed dataset dimensions and structure
@@ -61,7 +56,7 @@ The dataset included over **500,000 order records** with the following columns:
 - Saved cleaned dataset for downstream analysis
 
 ---
-## New KPI: Product Health Score
+## KPI Development
 
 The **Product Health Score** is a weighted composite metric created to evaluate product performance across three key dimensions:
 
@@ -77,24 +72,46 @@ Product Health Score =
 > This metric allows Modecraft to prioritize products that not only generate high revenue but also show consistent customer purchase behavior.
 
 
+## Files in this Repository
+
+| File Name                      | Description                                                           |
+|-------------------------------|-----------------------------------------------------------------------|
+| `E_commerce_Data_Cleaning.ipynb` | Jupyter notebook with Python code for data cleaning and preprocessing. Outputs cleaned dataset. |
+| `ML_XGBOOST.ipynb`             | Jupyter notebook implementing the XGBoost machine learning model to validate KPI drivers and predict product success. |
+| `Mode_Craft_Ecommerce_Data.xlsx` | Original raw dataset used for the analysis.                          |
+| `Ecommerce_Dashboard.png`      | Screenshot of the Tableau dashboard visualizing key metrics and trends. |
+| `Ecommerce_Tableau.pdf`        | Full presentation with visuals, insights, and summary of the datathon project. |
+| `3rd Place - Data Analysis-2.jpg` | Award recognition image for achieving 3rd place in the datathon.      |
 
 
-##  Files in this Repository
 
-- `Datathon_2025.ipynb`:  
-  Jupyter notebook containing all the Python code used for data cleaning.  
-  Outputs a cleaned `.csv` at the end.
-
-## 🔗 View Dashboard
+## 🔗 Data Visualization
 
 👉 [Click here to view the Tableau dashboard](https://public.tableau.com/views/Datathon2025_17456919773330/Dashboard1)
 
 ---
 
-##  Additional Visuals
+##  Presentation
 
-All visuals, insights, and summary slides are available in our  
+All visuals, insights, and summary slides are available in 
  [Canva Presentation](#) *([Link](https://www.canva.com/design/DAGlwVlCVwo/qXdaVok-uXooKnCkfuT6hQ/edit))*
 
 ---
+## 🤖 Machine Learning Model: XGBoost
+
+An **XGBoost** model was developed to identify features that best predict product success, helping validate the importance of each metric component.
+
+### 🧠 ML Highlights:
+
+- **Model Type:** Gradient Boosted Decision Trees (XGBoost)
+- **Target Variable:** Revenue Prediction
+- **Key Features Used:**
+  - Quantity sold
+  - Invoice count
+  - Price elasticity
+  - Historical growth rate
+- **Evaluation Metric:** AUC, Accuracy
+- **Outcome:** Prediction quality is reliable for 
+MAE <5 for Quantity
+MAE <10 for Revenue (very good relative to average quantity ~4000+ units and revenue ~£8000+)
 
